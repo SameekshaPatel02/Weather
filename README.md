@@ -24,4 +24,5 @@ This project is open source and available for use.
 
 Acknowledgments:
 Weather data provided by OpenWeatherMap
+
 Background images from Unsplash
