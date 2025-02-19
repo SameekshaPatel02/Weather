@@ -1,3 +1,4 @@
+/* Global styles */
 body {
     display: flex;
     justify-content: center;
@@ -10,6 +11,7 @@ body {
     font-size: 120%;
 }
 
+/* Weather card styles */
 .card {
     background: #78e8ecd0;
     color: rgb(35, 28, 63);
@@ -20,6 +22,7 @@ body {
     margin: 1em;
 }
 
+/* Search bar styles */
 .search {
     display: flex;
     align-items: center;
@@ -56,6 +59,7 @@ button:hover {
     color: black;
 }
 
+/* Weather information styles */
 h1.temp {
     margin: 0;
     margin-bottom: 0.4em;
@@ -71,13 +75,14 @@ h1.temp {
     margin-left: 8px;
 }
 
+/* Loading state styles */
 .weather.loading {
     visibility: hidden;
     max-height: 20px;
     position: relative;
 }
 
-.weather.loading:after{
+.weather.loading:after {
     visibility: visible;
     content: "Loading....";
     color: white;
@@ -86,6 +91,7 @@ h1.temp {
     left: 20px;
 }
 
+/* Hover effects */
 .card:hover {
     box-shadow: 5px 5px 5px #00000056;
 }
